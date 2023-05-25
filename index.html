@@ -89,13 +89,51 @@
       order: 1;
     }
     /* 👉 Task 5 - [HINT] research align-self */
-
+    [id=flexContainer5]{
+      justify-content: center;
+      flex-direction: column;
+    }
+    #flexContainer5 .flexItem:nth-child(2){
+      align-self: center;
+    }
     /* 👉 Task 6 - [HINT] flex items can be flex containers */
+    #flexContainer6 .flexItem:nth-child(1){
+      order: 3;
+      justify-content: flex-end;
+      align-self: flex-end;
+    }
+    #flexContainer6 .flexItem:nth-child(2){
+      order: 2;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-self: flex-end;
+    }
+    #flexContainer6 .flexItem:nth-child(3){
+      order: 1;
+    }
 
     /* 👉 Task 7 - [HINT] research flex-grow */
+    #flexContainer7 .flexItem:nth-child(2){
+      flex-grow: 2;
+    }
+    #flexContainer7 .flexItem:nth-child(3){
+      flex-grow: 3;
+    }
 
     /* 👉 Task 8 - [HINT] you got this! */
-
+    [id=flexContainer8]{
+      justify-content: space-between;
+    }
+    #flexContainer8 .flexItem:nth-child(1){
+      justify-content: flex-end;
+    }
+    #flexContainer8 .flexItem:nth-child(2){
+      align-self: center;
+    }
+    #flexContainer8 .flexItem:nth-child(3){
+      justify-content: flex-start;
+      align-self: flex-end;
+    }
 
     /*
     👉 Part 2 of 2 👈
